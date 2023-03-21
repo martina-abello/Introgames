@@ -15,7 +15,7 @@ inicio = time.time()
 x = input("YA!")
 fin = time.time()
 
-reaccion = inicio - fin
+reaccion = fin - inicio
 print("Tu tiempo de reaccion ha sido", reaccion)
 print("Como referencia, tiempo de reacción de Usain Bolt es de 0.155")
 
